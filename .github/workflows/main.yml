@@ -17,7 +17,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r Requirement.txt
     - name: Set up Git to use the token
       run: |
         git config user.name "divesh7777"
